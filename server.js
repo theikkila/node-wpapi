@@ -19,6 +19,7 @@ server.get('/api/v0/menu', controllers.menu);
 server.get('/api/v0/posts', controllers.posts);
 server.get('/api/v0/posts/:post', controllers.post);
 server.get('/api/v0/pages', controllers.pages);
+server.get('/api/v0/sponsors', controllers.sponsors);
 server.get('/api/v0/pages/:page', controllers.page);
 
 server.listen(process.env.PORT || 8080, function() {
